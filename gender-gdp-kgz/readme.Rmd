@@ -1,0 +1,31 @@
+---
+title: "Gender Equality and Economic Development in Kyrgyzstan | Analysis"
+author: "Aia K"
+date: "2025-10-24"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Gender Equality and Economic Development in Kyrgyzstan
+
+## Abstract:
+
+This report investigates the relationship between gender equality indicators (e.g., female education attainment, maternal mortality rate, the amount of female managers in a company, etc) and GDP in Kyrgyzstan. Using data from year 2000, the analysis explores which gender-related indicators most strongly correlate with economic performance. Correlation and regression analyses reveal a consistent positive relationship between many human development indicators, such as female labor force participation, female employment in managerial positions, and school enrollment for girls, and real GDP. On the other hand, indicators such as female mortality rates and school dropout rates are negatively associated with economic performance. These findings support the idea that advancing gender equality is advantageous to the nation's economy.
+
+## Introduction
+Kyrgyzstan, a country in Central Asia, has gender disparities in education, employment, and political representation. This analysis explores which indicators correlate positively with an increase in real GDP. The report used development indicator data and GDP records from 2000 to 2024 to identify which gender-related variables show the strongest economic correlations. The report did not include economic performance before year 2000 due to the overall crisis of the countries after the fall of the USSR. The author believes including the prior years would add noise to data, which might also lead to unnecessary implications.
+
+## Methods
+The report used two datasets: one containing gender-related development indicators (from the World Bank) and another with Kyrgyzstan’s annual real GDP (National Statistics Committee). The datasets were manually cleaned to elimimate noise and unrelated or null columns and rows, and were merged by year. The analysis used Pearson correlation to evaluate the strength of linear relationships and linear regression to visualize trends between GDP and selected indicators. Real GDP was used instead of nominal, so rest assured inflation was taken into account.
+
+## Results
+Among all gender equality indicators, the number of female top manager of firms, female tertiary school enrollment and women's political representation showed the strongest positive correlation with GDP. Regression plots suggest a clear linear trend in several cases, indicating that greater inclusion of women in the workforce and better healthcare may align with economic growth. These trends were visualized using scatterplots with fitted regression lines.
+
+## Discussion
+The results support the idea that gender equality contributes to economic growth. Greater female participation in the labor market, education, and politics may improve national productivity and institutional quality. However, correlation is not causation. These findings underline associations, and may not be direct effects. Nonetheless, the analysis suggests that human development and inclusive growth are likely intertwined.
+
+## Conclusion 
+Gender equality seems to have a positive, correlative relationship with real GDP in Kyrgyzstan. Indicators related to education and employment show the most consistent alignment with economic performance. The results suggest that investing in gender equality is not only a social imperative and a moral obligation, but also a key driver of national economic development, which benefits all.
